@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 import itertools
 
-model = pickle.load(open('C:\\Users\\gouth\\Desktop\\Crop-Recommendqtion-api-flask-master\\Crop-Recommendation-api-flask\\RandomForest.pkl','rb'))
-fert_model = pickle.load(open('C:\\Users\\gouth\\Desktop\\Crop-Recommendqtion-api-flask-master\\Crop-Recommendation-api-flask\\fertilizerPred.pkl', 'rb'))
+model = pickle.load(open('RandomForest.pkl','rb'))
+fert_model = pickle.load(open('fertilizerPred.pkl', 'rb'))
 print("Models Loaded")
 app = Flask(__name__)
 
