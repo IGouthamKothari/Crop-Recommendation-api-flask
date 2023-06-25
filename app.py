@@ -28,7 +28,7 @@ def predict():
     data = np.array([[N,P,K,temperature, humidity, ph, rainfall]])
 
     prediction = model.predict(data)
-    variation_range = range(-20, 20, 5)  # -10% to +10% with 1% steps
+    variation_range = range(-10, 10, 5)  # -10% to +10% with 1% steps
 
     # Dictionary to store crop variations
     crop_variations = {}
@@ -74,7 +74,7 @@ def predict():
         crop_name += fert
         crop_list.append(crop_name)
     print(crop_list)
-    return jsonify({'crops': crop_list[:2]})
+    return jsonify({'crops': crop_list[0]})
 
 if __name__ == '__main__':
     app.run(debug=True)
