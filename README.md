@@ -20,12 +20,12 @@ The Crop Recommendation API is a Flask-based web service that provides intellige
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/IGouthamKothari/Crop-Recommendqtion-api-flask.git
+   git clone https://github.com/IGouthamKothari/Crop-Recommendation-api-flask.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd Crop-Recommendqtion-api-flask
+   cd Crop-Recommendation-api-flask
    ```
 
 3. Install the dependencies:
